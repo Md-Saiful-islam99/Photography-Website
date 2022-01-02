@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    padding: 1% 6%; 
+    justify-content: space-between;  
+    align-items: center;
+    background-color: hsl(189, 100%, 51%);
+    
+}
+nav img {
+    width: 80px;     
+}
+h1{
+   
+    flex: 1 1 auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+nav ul   {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+  display:inline-block ;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+nav li a:hover{
+    
+    border-radius: 4px;
+    color: white;
+}
+
+
+.home-section div{
+    float: left;
+    padding: 260px;
+    
+    
+    
+}
+
+
+
+section .name h1 {
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'Neuton', serif;   
+    
+
+}
+section .name h2 {
+    font-size: 50px;
+    font-family: 'Neuton', serif;   
+    color: hsl(189, 100%, 51%);
+
+}
+section .camera img{
+   border-radius: 20px;
+   width: 500px;
+   
+}  
+section .about {
+    width: 100;
+    height: 100vh;
+    background-color: rgb(18, 228, 228);
+    justify-content: center;
+    align-items: center;
+}
+
+
+section .main img {
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    
+
+}
+.text {
+    width: 550px;
+    max-width:100%;
+    padding: 0 50px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">GALLERY</a></li>
+                </ul>
+            </div>
+            font-family: 'Inter', sans-serif;
+            font-family: 'Neuton', serif;
+            
+             */
