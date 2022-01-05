@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
 *{
@@ -175,17 +174,77 @@ nav li a:hover{
     border-radius: 10px;
 
 }
+h3{
+    position: relative;
+    font-size: 3vw;
+    color: #fcf9f9;
+    -webkit-text-stroke: 0.2vw rgb(2, 2, 2);
+    margin: 0px; 
+    align-items: center;
+    
+    
+
+}
+.font-animation{
+    padding: 1% 30%;
+   
+}
+h3::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: rgb(255, 188, 2);
+    -webkit-text-stroke: 0vw yellow;
+    border-right: 10px solid rgb(2, 0, 128);
+    overflow: hidden;
+    animation: animate 6s linear infinite ;
+    border-right: 2px solid rgb(255, 187, 0);
+
+}
+@keyframes animate {
+    0%,10%,100%
+    {
+        width: 0;
+    }
+        70%,90%
+    {
+        width: 100%;
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-/*<Charcoal #101820FF, Yellow #FEE715FF 
-            
-             */
+/* #experience-part h1 {
+    font-size: 40px;
+    color: rgb(120, 67, 245);
+   position:relative;
+   -webkit-text-stroke: 0.3vw red;
+   text-transform: uppercase;
+ }
+ #experience-part h1 ::before{
+     content: attr(data-text);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     color: green;
+     -webkit-text-stroke: 0vw yellow;
+     border-right: 20x solid green;
+     overflow: hidden;
+     animation: animate 6s linear infinite ;
+ 
+ }
+ @keyframes animate {
+     0%,10%,100%
+     {
+         width: 0;
+ 
+     }
+         70%,90%
+     {
+         width: 100%;
+     }
+ }
