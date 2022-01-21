@@ -144,6 +144,7 @@ nav li a:hover{
     width: 500px;
     max-width: 100%;
     border-radius: 1000px;
+    padding: 20px;
 }
 .about .main .about-text {
     width: 550px;
